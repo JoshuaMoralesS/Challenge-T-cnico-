@@ -15,6 +15,9 @@
    
    ![Image text](https://github.com/JoshuaMoralesS/Challenge-T-cnico-/blob/main/Diagrama%20proyecto.png)
    
+   <h1 align="left"> Estructura BD del Proyecto </h1>
+   
+   
    <h1 align="left" > Ejecución de la aplicación </h1>
    
    Paso 1. Instalar librerías.
