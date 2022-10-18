@@ -1,4 +1,4 @@
-rom flask import Flask
+from flask import Flask
 from flask import Flask, jsonify, request, Response
 import json
 from flask import Blueprint
@@ -21,8 +21,9 @@ def hello():
                    'version_SO': content_to_json ['version_SO'],
                    'listadoprocesos': content_to_json ['listadoprocesos'],
                    'Usuarios_activos':content_to_json ['Usuarios_activos'],
-                   'ip_address': content_to_json ['ip_address']
-              }
+                   'ip_address': content_to_json ['ip_address'],
+			'fecha_serv': content_to_json ['fecha']
+                           }
 		fecha = str(date.today())
 
                 #IMPORTAR A JSON
@@ -37,10 +38,8 @@ def hello():
 		engine = db.create_engine('sqlite:///almacenamiento/basededatos/api.sqlite')
 		connection = engine.connect()
 		metadata = db.MetaData()
-		
-		t = datetime.now()
-		timestr = t.strftime('%Y-%m-%d %H:%M:%S.%f')	
-		formato_fecha = datetime.strptime(timestr,'%Y-%m-%d %H:%M:%S.%f')
+			
+		formato_fecha = datetime.strptime(registro['fecha_serv'],'%Y-%m-%d %H:%M:%S.%f')
 
 
                 #INSERTS A TABLA INFO_SERVIDOR
@@ -57,34 +56,33 @@ def hello():
 
 		ResultProxy = connection.execute(queryinfo_servidor)
 
-		i =db.select([info_servidorTab.columns.ID_SERVIDOR]).where(info_servidorTab.columns.fecha== fecha)
+		i =db.select([info_servidorTab.c.ID_SERVIDOR]).where(info_servidorTab.c.fecha== formato_fecha)
 
 		for row in connection.execute(i):
 			id_servidor=row['ID_SERVIDOR']
 
-                #INSERTS A TABLA USUARIOS               
+
+        #INSERTS A TABLA USUARIOS               
                 
 		usuariosTab = db.Table('usuarios',metadata,autoload=True,autoload_with=engine)
                 
 		for  users in registro['Usuarios_activos']:
-                              queryusuarios = db.insert(usuariosTab).values(
-                                      ID_SERVIDOR = id_servidor,
-                                      name = users['name'],
-                                      pid = users['pid']
-                                               )
-		ResultProxy = connection.execute(queryusuarios)
+			queryusuarios = db.insert(usuariosTab).values(
+            ID_SERVIDOR = id_servidor,
+            name = users['name'],
+            pid = users['pid'])
+			ResultProxy = connection.execute(queryusuarios)
 
 
                 #INSERT A TABLA PROCESOS
                 
-		ProcesosTab = db.Table('Procesos',metadata,autoload=True,autoload_with=engine)
+		procesosTab = db.Table('Procesos',metadata,autoload=True,autoload_with=engine)
 		for process in registro['listadoprocesos']:
-                               queryprocess = db.insert(procesosTab).values(
-                                      ID_SERVIDOR = id_servidor,
-                                      name = process['name'],
-                                      pid = process['pid']
-                                               )
-		ResultProxy = connection.execute(queryprocess)
+			queryprocess = db.insert(procesosTab).values(
+            ID_SERVIDOR = id_servidor,
+            name = process['name'],
+            pid = process['pid'])
+			ResultProxy = connection.execute(queryprocess)
 
 		print (json.dumps(registro,indent = 3))
 		return Response(json.dumps(registro), status= 201 , mimetype=mime_type)
@@ -95,4 +93,3 @@ def hello():
 
 
 app.run(host="0.0.0.0", port=5000, debug=True)
-
