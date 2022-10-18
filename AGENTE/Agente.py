@@ -6,6 +6,7 @@ import datetime
 import requests
 import socket
 from configparser import ConfigParser
+from datetime import datetime
 
 parser = ConfigParser()
 parser.read('ip.ini')
@@ -36,7 +37,7 @@ listadoprocesos = []
 
 for proceso in psutil.process_iter():
  
- listadoprocesos.append({"Nombre del proceso": proceso.name(), "ID Proceso":proceso.pid})
+ listadoprocesos.append({"name": proceso.name(), "pid":proceso.pid})
    
 # print("Nombre del Proceso: ",proceso.name())
  #print("ID Proceso: ",proceso.pid)
@@ -60,6 +61,9 @@ ip_address = s.getsockname()[0]
 print (s.getsockname()[0])
 s.close()
 
+#Fecha
+fecha = str(datetime.now())
+
 #FUNCION POST EN JSON
 
 infoproceso = {'informacion_procesador':informacion_procesador,
@@ -68,7 +72,8 @@ infoproceso = {'informacion_procesador':informacion_procesador,
                'version_SO':version_SO,
                'listadoprocesos': listadoprocesos,
                'Usuarios_activos':Usuarios_activos,
-               'ip_address': ip_address
+               'ip_address': ip_address,
+			   'fecha': fecha
               }
 print(infoproceso)
 
