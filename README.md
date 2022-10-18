@@ -13,6 +13,19 @@
    
    <h1 align="left" > Ejecución de la aplicación </h1>
    
-     - Paso 1. Como primer paso, se instalan todas las librerías de Python que usamos para el desarrollo, 
-       
-       
+   Paso 1. Instalar librerías.
+   
+   Como primer paso, se instalan todas las librerías de Python que usamos para el desarrollo, 
+   
+        - Las librerias a instalar son: cpuinfo,psutil,datetime,requests,flask,response,pandas y sqlAlchemy. 
+          El comando completo se puede enocntrar en el archivo "Scriptslibrerias.sh".
+         
+   Paso 2 Ejecutar la creación de la base de datos.
+   
+        - Para esto vamos a posicionarnos en la ruta "BD/crearBD.py" y ejecutar el script "crearBD.py" con el comando "python3 crearBD.py".
+          El resultado será un archivo llamado "api.sqlite" que se creará en la ruta API/almacenamiento/basededatos.
+         
+    Paso 3 Levantar el servicio de la API.
+    
+       - 
+   
