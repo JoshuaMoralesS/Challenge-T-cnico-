@@ -1,0 +1,919 @@
+{
+   "informacion_procesador": "x86_64",
+   "informacion_procesador2": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+   "nombre_SO": [
+      "Linux",
+      "4.19.0-12-amd64",
+      "#1 SMP Debian 4.19.152-1 (2020-10-18)"
+   ],
+   "version_SO": "#1 SMP Debian 4.19.152-1 (2020-10-18)",
+   "listadoprocesos": [
+      {
+         "Nombre del proceso": "systemd",
+         "ID Proceso": 1
+      },
+      {
+         "Nombre del proceso": "kthreadd",
+         "ID Proceso": 2
+      },
+      {
+         "Nombre del proceso": "rcu_gp",
+         "ID Proceso": 3
+      },
+      {
+         "Nombre del proceso": "rcu_par_gp",
+         "ID Proceso": 4
+      },
+      {
+         "Nombre del proceso": "kworker/0:0H-kblockd",
+         "ID Proceso": 6
+      },
+      {
+         "Nombre del proceso": "mm_percpu_wq",
+         "ID Proceso": 8
+      },
+      {
+         "Nombre del proceso": "ksoftirqd/0",
+         "ID Proceso": 9
+      },
+      {
+         "Nombre del proceso": "rcu_sched",
+         "ID Proceso": 10
+      },
+      {
+         "Nombre del proceso": "rcu_bh",
+         "ID Proceso": 11
+      },
+      {
+         "Nombre del proceso": "migration/0",
+         "ID Proceso": 12
+      },
+      {
+         "Nombre del proceso": "cpuhp/0",
+         "ID Proceso": 14
+      },
+      {
+         "Nombre del proceso": "cpuhp/1",
+         "ID Proceso": 15
+      },
+      {
+         "Nombre del proceso": "migration/1",
+         "ID Proceso": 16
+      },
+      {
+         "Nombre del proceso": "ksoftirqd/1",
+         "ID Proceso": 17
+      },
+      {
+         "Nombre del proceso": "kworker/1:0H-kblockd",
+         "ID Proceso": 19
+      },
+      {
+         "Nombre del proceso": "cpuhp/2",
+         "ID Proceso": 20
+      },
+      {
+         "Nombre del proceso": "migration/2",
+         "ID Proceso": 21
+      },
+      {
+         "Nombre del proceso": "ksoftirqd/2",
+         "ID Proceso": 22
+      },
+      {
+         "Nombre del proceso": "kworker/2:0H-kblockd",
+         "ID Proceso": 24
+      },
+      {
+         "Nombre del proceso": "kdevtmpfs",
+         "ID Proceso": 25
+      },
+      {
+         "Nombre del proceso": "netns",
+         "ID Proceso": 26
+      },
+      {
+         "Nombre del proceso": "kauditd",
+         "ID Proceso": 27
+      },
+      {
+         "Nombre del proceso": "khungtaskd",
+         "ID Proceso": 28
+      },
+      {
+         "Nombre del proceso": "oom_reaper",
+         "ID Proceso": 29
+      },
+      {
+         "Nombre del proceso": "writeback",
+         "ID Proceso": 30
+      },
+      {
+         "Nombre del proceso": "kcompactd0",
+         "ID Proceso": 31
+      },
+      {
+         "Nombre del proceso": "ksmd",
+         "ID Proceso": 32
+      },
+      {
+         "Nombre del proceso": "khugepaged",
+         "ID Proceso": 33
+      },
+      {
+         "Nombre del proceso": "crypto",
+         "ID Proceso": 34
+      },
+      {
+         "Nombre del proceso": "kintegrityd",
+         "ID Proceso": 35
+      },
+      {
+         "Nombre del proceso": "kblockd",
+         "ID Proceso": 36
+      },
+      {
+         "Nombre del proceso": "edac-poller",
+         "ID Proceso": 37
+      },
+      {
+         "Nombre del proceso": "devfreq_wq",
+         "ID Proceso": 38
+      },
+      {
+         "Nombre del proceso": "watchdogd",
+         "ID Proceso": 39
+      },
+      {
+         "Nombre del proceso": "kswapd0",
+         "ID Proceso": 42
+      },
+      {
+         "Nombre del proceso": "kthrotld",
+         "ID Proceso": 60
+      },
+      {
+         "Nombre del proceso": "ipv6_addrconf",
+         "ID Proceso": 61
+      },
+      {
+         "Nombre del proceso": "kstrp",
+         "ID Proceso": 71
+      },
+      {
+         "Nombre del proceso": "ata_sff",
+         "ID Proceso": 114
+      },
+      {
+         "Nombre del proceso": "scsi_eh_0",
+         "ID Proceso": 115
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_0",
+         "ID Proceso": 116
+      },
+      {
+         "Nombre del proceso": "scsi_eh_1",
+         "ID Proceso": 117
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_1",
+         "ID Proceso": 119
+      },
+      {
+         "Nombre del proceso": "scsi_eh_2",
+         "ID Proceso": 128
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_2",
+         "ID Proceso": 129
+      },
+      {
+         "Nombre del proceso": "scsi_eh_3",
+         "ID Proceso": 131
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_3",
+         "ID Proceso": 132
+      },
+      {
+         "Nombre del proceso": "scsi_eh_4",
+         "ID Proceso": 135
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_4",
+         "ID Proceso": 136
+      },
+      {
+         "Nombre del proceso": "scsi_eh_5",
+         "ID Proceso": 137
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_5",
+         "ID Proceso": 138
+      },
+      {
+         "Nombre del proceso": "scsi_eh_6",
+         "ID Proceso": 139
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_6",
+         "ID Proceso": 140
+      },
+      {
+         "Nombre del proceso": "scsi_eh_7",
+         "ID Proceso": 143
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_7",
+         "ID Proceso": 144
+      },
+      {
+         "Nombre del proceso": "scsi_eh_8",
+         "ID Proceso": 145
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_8",
+         "ID Proceso": 146
+      },
+      {
+         "Nombre del proceso": "scsi_eh_9",
+         "ID Proceso": 147
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_9",
+         "ID Proceso": 149
+      },
+      {
+         "Nombre del proceso": "scsi_eh_10",
+         "ID Proceso": 150
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_10",
+         "ID Proceso": 152
+      },
+      {
+         "Nombre del proceso": "scsi_eh_11",
+         "ID Proceso": 153
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_11",
+         "ID Proceso": 154
+      },
+      {
+         "Nombre del proceso": "scsi_eh_12",
+         "ID Proceso": 157
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_12",
+         "ID Proceso": 158
+      },
+      {
+         "Nombre del proceso": "scsi_eh_13",
+         "ID Proceso": 159
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_13",
+         "ID Proceso": 160
+      },
+      {
+         "Nombre del proceso": "scsi_eh_14",
+         "ID Proceso": 162
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_14",
+         "ID Proceso": 163
+      },
+      {
+         "Nombre del proceso": "scsi_eh_15",
+         "ID Proceso": 165
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_15",
+         "ID Proceso": 166
+      },
+      {
+         "Nombre del proceso": "scsi_eh_16",
+         "ID Proceso": 167
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_16",
+         "ID Proceso": 168
+      },
+      {
+         "Nombre del proceso": "scsi_eh_17",
+         "ID Proceso": 169
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_17",
+         "ID Proceso": 170
+      },
+      {
+         "Nombre del proceso": "scsi_eh_18",
+         "ID Proceso": 171
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_18",
+         "ID Proceso": 172
+      },
+      {
+         "Nombre del proceso": "scsi_eh_19",
+         "ID Proceso": 173
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_19",
+         "ID Proceso": 174
+      },
+      {
+         "Nombre del proceso": "scsi_eh_20",
+         "ID Proceso": 176
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_20",
+         "ID Proceso": 177
+      },
+      {
+         "Nombre del proceso": "scsi_eh_21",
+         "ID Proceso": 178
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_21",
+         "ID Proceso": 179
+      },
+      {
+         "Nombre del proceso": "scsi_eh_22",
+         "ID Proceso": 180
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_22",
+         "ID Proceso": 181
+      },
+      {
+         "Nombre del proceso": "scsi_eh_23",
+         "ID Proceso": 183
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_23",
+         "ID Proceso": 184
+      },
+      {
+         "Nombre del proceso": "scsi_eh_24",
+         "ID Proceso": 185
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_24",
+         "ID Proceso": 186
+      },
+      {
+         "Nombre del proceso": "scsi_eh_25",
+         "ID Proceso": 187
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_25",
+         "ID Proceso": 188
+      },
+      {
+         "Nombre del proceso": "scsi_eh_26",
+         "ID Proceso": 189
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_26",
+         "ID Proceso": 190
+      },
+      {
+         "Nombre del proceso": "scsi_eh_27",
+         "ID Proceso": 191
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_27",
+         "ID Proceso": 192
+      },
+      {
+         "Nombre del proceso": "scsi_eh_28",
+         "ID Proceso": 193
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_28",
+         "ID Proceso": 194
+      },
+      {
+         "Nombre del proceso": "scsi_eh_29",
+         "ID Proceso": 195
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_29",
+         "ID Proceso": 199
+      },
+      {
+         "Nombre del proceso": "scsi_eh_30",
+         "ID Proceso": 200
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_30",
+         "ID Proceso": 202
+      },
+      {
+         "Nombre del proceso": "scsi_eh_31",
+         "ID Proceso": 203
+      },
+      {
+         "Nombre del proceso": "scsi_tmf_31",
+         "ID Proceso": 204
+      },
+      {
+         "Nombre del proceso": "kworker/u6:31-events_unbound",
+         "ID Proceso": 235
+      },
+      {
+         "Nombre del proceso": "kworker/1:1H-kblockd",
+         "ID Proceso": 255
+      },
+      {
+         "Nombre del proceso": "kworker/0:1H-kblockd",
+         "ID Proceso": 256
+      },
+      {
+         "Nombre del proceso": "kworker/2:1H-kblockd",
+         "ID Proceso": 259
+      },
+      {
+         "Nombre del proceso": "kworker/u7:0",
+         "ID Proceso": 296
+      },
+      {
+         "Nombre del proceso": "jbd2/sda1-8",
+         "ID Proceso": 298
+      },
+      {
+         "Nombre del proceso": "ext4-rsv-conver",
+         "ID Proceso": 299
+      },
+      {
+         "Nombre del proceso": "systemd-journald",
+         "ID Proceso": 336
+      },
+      {
+         "Nombre del proceso": "systemd-udevd",
+         "ID Proceso": 354
+      },
+      {
+         "Nombre del proceso": "ttm_swap",
+         "ID Proceso": 437
+      },
+      {
+         "Nombre del proceso": "dhclient",
+         "ID Proceso": 501
+      },
+      {
+         "Nombre del proceso": "avahi-daemon",
+         "ID Proceso": 520
+      },
+      {
+         "Nombre del proceso": "dbus-daemon",
+         "ID Proceso": 522
+      },
+      {
+         "Nombre del proceso": "accounts-daemon",
+         "ID Proceso": 525
+      },
+      {
+         "Nombre del proceso": "udisksd",
+         "ID Proceso": 526
+      },
+      {
+         "Nombre del proceso": "systemd-logind",
+         "ID Proceso": 527
+      },
+      {
+         "Nombre del proceso": "wpa_supplicant",
+         "ID Proceso": 528
+      },
+      {
+         "Nombre del proceso": "cron",
+         "ID Proceso": 534
+      },
+      {
+         "Nombre del proceso": "rsyslogd",
+         "ID Proceso": 537
+      },
+      {
+         "Nombre del proceso": "ModemManager",
+         "ID Proceso": 539
+      },
+      {
+         "Nombre del proceso": "NetworkManager",
+         "ID Proceso": 542
+      },
+      {
+         "Nombre del proceso": "avahi-daemon",
+         "ID Proceso": 570
+      },
+      {
+         "Nombre del proceso": "polkitd",
+         "ID Proceso": 581
+      },
+      {
+         "Nombre del proceso": "unattended-upgr",
+         "ID Proceso": 588
+      },
+      {
+         "Nombre del proceso": "sshd",
+         "ID Proceso": 603
+      },
+      {
+         "Nombre del proceso": "gdm3",
+         "ID Proceso": 607
+      },
+      {
+         "Nombre del proceso": "rtkit-daemon",
+         "ID Proceso": 682
+      },
+      {
+         "Nombre del proceso": "upowerd",
+         "ID Proceso": 692
+      },
+      {
+         "Nombre del proceso": "colord",
+         "ID Proceso": 806
+      },
+      {
+         "Nombre del proceso": "gdm-session-worker",
+         "ID Proceso": 828
+      },
+      {
+         "Nombre del proceso": "systemd",
+         "ID Proceso": 832
+      },
+      {
+         "Nombre del proceso": "(sd-pam)",
+         "ID Proceso": 833
+      },
+      {
+         "Nombre del proceso": "gnome-keyring-daemon",
+         "ID Proceso": 845
+      },
+      {
+         "Nombre del proceso": "gdm-wayland-session",
+         "ID Proceso": 850
+      },
+      {
+         "Nombre del proceso": "dbus-daemon",
+         "ID Proceso": 852
+      },
+      {
+         "Nombre del proceso": "gnome-session-binary",
+         "ID Proceso": 854
+      },
+      {
+         "Nombre del proceso": "gnome-shell",
+         "ID Proceso": 885
+      },
+      {
+         "Nombre del proceso": "gvfsd",
+         "ID Proceso": 895
+      },
+      {
+         "Nombre del proceso": "gvfsd-fuse",
+         "ID Proceso": 900
+      },
+      {
+         "Nombre del proceso": "Xwayland",
+         "ID Proceso": 907
+      },
+      {
+         "Nombre del proceso": "at-spi-bus-launcher",
+         "ID Proceso": 918
+      },
+      {
+         "Nombre del proceso": "dbus-daemon",
+         "ID Proceso": 923
+      },
+      {
+         "Nombre del proceso": "at-spi2-registryd",
+         "ID Proceso": 925
+      },
+      {
+         "Nombre del proceso": "pulseaudio",
+         "ID Proceso": 929
+      },
+      {
+         "Nombre del proceso": "gnome-shell-calendar-server",
+         "ID Proceso": 937
+      },
+      {
+         "Nombre del proceso": "evolution-source-registry",
+         "ID Proceso": 941
+      },
+      {
+         "Nombre del proceso": "goa-daemon",
+         "ID Proceso": 947
+      },
+      {
+         "Nombre del proceso": "dconf-service",
+         "ID Proceso": 951
+      },
+      {
+         "Nombre del proceso": "gvfs-udisks2-volume-monitor",
+         "ID Proceso": 954
+      },
+      {
+         "Nombre del proceso": "goa-identity-service",
+         "ID Proceso": 963
+      },
+      {
+         "Nombre del proceso": "gvfs-mtp-volume-monitor",
+         "ID Proceso": 968
+      },
+      {
+         "Nombre del proceso": "gvfs-afc-volume-monitor",
+         "ID Proceso": 972
+      },
+      {
+         "Nombre del proceso": "gvfs-goa-volume-monitor",
+         "ID Proceso": 977
+      },
+      {
+         "Nombre del proceso": "gvfs-gphoto2-volume-monitor",
+         "ID Proceso": 981
+      },
+      {
+         "Nombre del proceso": "gsd-power",
+         "ID Proceso": 985
+      },
+      {
+         "Nombre del proceso": "gsd-print-notifications",
+         "ID Proceso": 986
+      },
+      {
+         "Nombre del proceso": "gsd-rfkill",
+         "ID Proceso": 989
+      },
+      {
+         "Nombre del proceso": "gsd-screensaver-proxy",
+         "ID Proceso": 991
+      },
+      {
+         "Nombre del proceso": "gsd-sharing",
+         "ID Proceso": 994
+      },
+      {
+         "Nombre del proceso": "gsd-smartcard",
+         "ID Proceso": 999
+      },
+      {
+         "Nombre del proceso": "gsd-sound",
+         "ID Proceso": 1001
+      },
+      {
+         "Nombre del proceso": "gsd-xsettings",
+         "ID Proceso": 1006
+      },
+      {
+         "Nombre del proceso": "gsd-wacom",
+         "ID Proceso": 1013
+      },
+      {
+         "Nombre del proceso": "gsd-clipboard",
+         "ID Proceso": 1014
+      },
+      {
+         "Nombre del proceso": "gsd-a11y-settings",
+         "ID Proceso": 1015
+      },
+      {
+         "Nombre del proceso": "gsd-datetime",
+         "ID Proceso": 1018
+      },
+      {
+         "Nombre del proceso": "gsd-color",
+         "ID Proceso": 1021
+      },
+      {
+         "Nombre del proceso": "gsd-keyboard",
+         "ID Proceso": 1024
+      },
+      {
+         "Nombre del proceso": "evolution-calendar-factory",
+         "ID Proceso": 1025
+      },
+      {
+         "Nombre del proceso": "gsd-housekeeping",
+         "ID Proceso": 1026
+      },
+      {
+         "Nombre del proceso": "gsd-mouse",
+         "ID Proceso": 1028
+      },
+      {
+         "Nombre del proceso": "gsd-media-keys",
+         "ID Proceso": 1034
+      },
+      {
+         "Nombre del proceso": "gsd-printer",
+         "ID Proceso": 1053
+      },
+      {
+         "Nombre del proceso": "gnome-software",
+         "ID Proceso": 1108
+      },
+      {
+         "Nombre del proceso": "evolution-alarm-notify",
+         "ID Proceso": 1111
+      },
+      {
+         "Nombre del proceso": "gsd-disk-utility-notify",
+         "ID Proceso": 1116
+      },
+      {
+         "Nombre del proceso": "tracker-store",
+         "ID Proceso": 1118
+      },
+      {
+         "Nombre del proceso": "evolution-addressbook-factory",
+         "ID Proceso": 1120
+      },
+      {
+         "Nombre del proceso": "tracker-miner-apps",
+         "ID Proceso": 1123
+      },
+      {
+         "Nombre del proceso": "tracker-miner-fs",
+         "ID Proceso": 1128
+      },
+      {
+         "Nombre del proceso": "gvfsd-metadata",
+         "ID Proceso": 1199
+      },
+      {
+         "Nombre del proceso": "seahorse",
+         "ID Proceso": 1801
+      },
+      {
+         "Nombre del proceso": "gvfsd-trash",
+         "ID Proceso": 1841
+      },
+      {
+         "Nombre del proceso": "gvfsd-burn",
+         "ID Proceso": 1941
+      },
+      {
+         "Nombre del proceso": "obexd",
+         "ID Proceso": 2130
+      },
+      {
+         "Nombre del proceso": "geoclue",
+         "ID Proceso": 2158
+      },
+      {
+         "Nombre del proceso": "firefox-esr",
+         "ID Proceso": 2431
+      },
+      {
+         "Nombre del proceso": "Socket Process",
+         "ID Proceso": 2480
+      },
+      {
+         "Nombre del proceso": "Privileged Cont",
+         "ID Proceso": 2505
+      },
+      {
+         "Nombre del proceso": "WebExtensions",
+         "ID Proceso": 2549
+      },
+      {
+         "Nombre del proceso": "Isolated Web Co",
+         "ID Proceso": 2586
+      },
+      {
+         "Nombre del proceso": "RDD Process",
+         "ID Proceso": 2660
+      },
+      {
+         "Nombre del proceso": "Utility Process",
+         "ID Proceso": 2691
+      },
+      {
+         "Nombre del proceso": "gvfsd-network",
+         "ID Proceso": 2870
+      },
+      {
+         "Nombre del proceso": "gvfsd-dnssd",
+         "ID Proceso": 2902
+      },
+      {
+         "Nombre del proceso": "sd_generic",
+         "ID Proceso": 5237
+      },
+      {
+         "Nombre del proceso": "sd_generic",
+         "ID Proceso": 5240
+      },
+      {
+         "Nombre del proceso": "sd_espeak-ng",
+         "ID Proceso": 5243
+      },
+      {
+         "Nombre del proceso": "sd_dummy",
+         "ID Proceso": 5249
+      },
+      {
+         "Nombre del proceso": "speech-dispatcher",
+         "ID Proceso": 5252
+      },
+      {
+         "Nombre del proceso": "gedit",
+         "ID Proceso": 6012
+      },
+      {
+         "Nombre del proceso": "gnome-terminal-server",
+         "ID Proceso": 6466
+      },
+      {
+         "Nombre del proceso": "bash",
+         "ID Proceso": 6568
+      },
+      {
+         "Nombre del proceso": "bash",
+         "ID Proceso": 7358
+      },
+      {
+         "Nombre del proceso": "Isolated Web Co",
+         "ID Proceso": 8559
+      },
+      {
+         "Nombre del proceso": "boltd",
+         "ID Proceso": 9488
+      },
+      {
+         "Nombre del proceso": "Isolated Web Co",
+         "ID Proceso": 11232
+      },
+      {
+         "Nombre del proceso": "kworker/2:1-events",
+         "ID Proceso": 11413
+      },
+      {
+         "Nombre del proceso": "nautilus",
+         "ID Proceso": 11421
+      },
+      {
+         "Nombre del proceso": "kworker/0:2-events",
+         "ID Proceso": 11566
+      },
+      {
+         "Nombre del proceso": "kworker/1:1-events",
+         "ID Proceso": 11574
+      },
+      {
+         "Nombre del proceso": "kworker/2:0-mm_percpu_wq",
+         "ID Proceso": 11578
+      },
+      {
+         "Nombre del proceso": "Web Content",
+         "ID Proceso": 11590
+      },
+      {
+         "Nombre del proceso": "kworker/0:1-ata_sff",
+         "ID Proceso": 11613
+      },
+      {
+         "Nombre del proceso": "kworker/1:2-events",
+         "ID Proceso": 11661
+      },
+      {
+         "Nombre del proceso": "kworker/u6:0-events_unbound",
+         "ID Proceso": 11713
+      },
+      {
+         "Nombre del proceso": "Web Content",
+         "ID Proceso": 11722
+      },
+      {
+         "Nombre del proceso": "Web Content",
+         "ID Proceso": 11752
+      },
+      {
+         "Nombre del proceso": "kworker/0:0-ata_sff",
+         "ID Proceso": 11776
+      },
+      {
+         "Nombre del proceso": "python3",
+         "ID Proceso": 11793
+      },
+      {
+         "Nombre del proceso": "python3",
+         "ID Proceso": 11794
+      },
+      {
+         "Nombre del proceso": "python3",
+         "ID Proceso": 11796
+      }
+   ],
+   "Usuarios_activos": [
+      {
+         "name": "usuario",
+         "pid": 850
+      }
+   ],
+   "ip_address": "10.0.2.15"
+}
