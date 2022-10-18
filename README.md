@@ -17,6 +17,7 @@
    
    <h1 align="left"> Estructura BD del Proyecto </h1>
    
+   ![Image text](https://github.com/JoshuaMoralesS/Challenge-T-cnico-/blob/main/Estructura%20BD.png)
    
    <h1 align="left" > Ejecución de la aplicación </h1>
    
